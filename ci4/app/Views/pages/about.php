@@ -1,1 +1,7 @@
 <div class="content_header"><h2>ABOUT THE SITE</h2></div>
+<div class="about_info">
+<h4>What's the site's theme? Who's the audience?</h4>
+<p>If it is not clear, the site is based upon ULTRAKILL's representations of the Nine Layers of Hell, which itself is an interpretation of Biblical Hell by Dante Aligheri in the Divine Comedy.<br />While the site's theme leans more into "gaming", I simply wanted a theme that could not only represent "me" but also fulfill the tasks both required in the subject and things I want to execute from other students.<br />Ultimately, the audience is myself, you (likely also a student interested in gaming), and Prof.</p>
+<h4>What are each of the layers for?</h4>
+<p>The layout of the site is split into three sections, respective of the three acts ULTRAKILL divides hell into: Act 1 being the introduction of myself, the general purpose of the website back in midterms, Act 2 being a place for all the "queries" which require MySQL, and Act 3 supposedly being for "fun stuff" that goes beyond what I've first heard of the subject. Fortunately, not only has there not been anything after PHP, but also that we know nothing on Fraud as it is development at the time of making this site.<br />Each layer's individual purpose is already laid out in bold text upon first descent, so I shan't elaborate. </p>
+</div>

@@ -47,11 +47,17 @@
 	<h2>You went too deep!</h2>
 	<h3>You were trying to access:</h3>
         <p>
-        <?php if (ENVIRONMENT !== 'production') : ?>
-            <?= nl2br(esc($message)) ?>
-        <?php else : ?>
-            <?= lang('Errors.sorryCannotFind') ?>
-        <?php endif; ?>
+		<?php if (nl2br(esc($message)) == 'fraud') : ?>
+			<?= 'LAYER 8 :: FRAUD' ?>
+		<?php elseif (nl2br(esc($message)) == 'treachery') : ?>
+			<?= 'LAYER 9 :: TREACHERY' ?>
+		<?php else : ?>
+			<?php if (ENVIRONMENT !== 'production') : ?>
+				<?= nl2br(esc($message)) ?>
+			<?php else : ?>
+				<?= lang('Errors.sorryCannotFind') ?>
+			<?php endif; ?>
+		<?php endif; ?>
         </p>
 </div>
 </body>

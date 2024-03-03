@@ -16,6 +16,9 @@
 <p>In this site, you get to know more about me while descending the depths of Hell! Know more about me, what I love, and what I do.</p>
 <br>
 <br>
+<p>Additionally, you may run into a few treats the deeper you go...</p>
+<br>
+<br>
 <p><i>So, what do you say?</i></p>
 <br>
 <br>
