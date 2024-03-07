@@ -9,6 +9,7 @@ body {
 	background-image: url("images/blank.png");
 	background-size: cover;
 	background-attachment: fixed;
+	margin: 8px 0;
 }
 
 .home {
@@ -57,6 +58,7 @@ body {
 	background-image: url("images/violence.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	color: red;
 }
 
 .contact {
@@ -82,12 +84,14 @@ body {
 	font-size: 48px;
 	font-family: "VCR OSD Mono", monospace;
 	text-align: center;
+	text-shadow: 5px 5px 4px black;
 }
 
 .content_header h4 {
 	font-size: 24px;
 	font-family: "VCR OSD Mono", monospace;
 	text-align: center;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
 /* 
@@ -196,6 +200,7 @@ body {
 	font-size: 26px;
 	top: 0;
 	left: 0;
+	color: white;
 	max-width: 90vw;
 	width: 100%;
 	padding: 0px 80px;
@@ -270,7 +275,8 @@ body {
 	height: 50px;
 	clip-path: polygon(0 0,50% 100%,100% 0);
 	aspect-ratio: 1.15;
-    background: rgb(255,255,255,0.5);
+    background: white;
+	opacity: 0.5;
 	cursor: pointer;
 	position: absolute;
 	top: 0px;
@@ -279,7 +285,7 @@ body {
 
 .descendArrow:hover .triangle {
 	top: 40px;
-	background: white;
+	opacity: 1;
 }
 
 .descendArrow:hover p {
@@ -399,6 +405,7 @@ img.pfp {
 	font-size: 48px;
 	font-family: "VCR OSD Mono", monospace;
 	text-align: center;
+	text-shadow: 5px 5px 4px black;
 }
 
 
@@ -449,6 +456,98 @@ img.pfp {
  LIMBO ^^^^
 			LUST vvvv
 */
+
+.lust_container {
+	margin-top: 20px;
+	max-width: 100vw;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	left: 0;
+	height: 80vh;
+}
+
+.lust_item {
+	width: 60vw;
+	height: 80%;
+	background-color: rgba(0,0,0,0.9);
+	border: 5px solid #FFFFFF;
+	position: relative;
+	border-radius: 80px;
+	top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: none;
+}
+
+.lust_item h1 {
+	font-size: 36px;
+	font-family: "VCR OSD Mono", monospace;
+	margin-top: 60px;
+}
+
+.lust_item p {
+	margin-right: 5%;
+}
+
+.image_float {
+	float: left;
+	margin-left: 5%;
+	width: 50%;
+	padding-right: 40px;
+	height: 100%;
+	position: relative;
+	justify-content: center;
+}
+
+.image_float img {
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	align-self: center;
+	width: 100%;
+	height: auto;
+}
+
+.lust_hoyodiv {
+	width: inherit;
+	height: inherit;
+	display: none;
+}
+
+.lust_hoyodiv .image_float img {
+	transform: translateY(-55%);
+}
+
+.lust_prev, .lust_next {
+  cursor: pointer;
+  position: absolute;
+  top: 73%;
+  width: 3%;
+  height: 35%;
+  background: white;
+  opacity: 0.5;
+  transition: 0.6s ease;
+}
+
+.lust_prev {
+	left: 10%;
+	clip-path: polygon(100% 0,0 50%,100% 100%);
+	aspect-ratio: 1.15;
+}
+
+.lust_next {
+	right: 10%;
+	clip-path: polygon(0 0,100% 50%,0 100%);
+	aspect-ratio: 1.15;
+}
+
+.lust_prev:hover, .lust_next:hover {
+  background-color: rgba(255,255,255,0.8);
+  color: #000000;
+  opacity: 1;
+}
 
 /* 
  LUST ^^^^
@@ -835,8 +934,6 @@ img.pfp {
  HERESY ^^^^
 			VIOLENCE vvvv
 */
-
-
 
 /* 
  VIOLENCE ^^^^

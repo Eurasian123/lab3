@@ -1,4 +1,4 @@
-<div class="content_header"><h2><br /><br /><br /><br />CONTACT ME</h2><h4>If you have anything to ask outside the site, send a message over in these places.</h4></div>
+<div class="content_header"><h2><br /><br /><br />CONTACT ME</h2><h4>If you have anything to ask outside the site, send a message over in these places.</h4></div>
 <div class="contact_div">
 <a href="javascript:void(0)" class="discord_icon">
 <?php
