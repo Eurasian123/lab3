@@ -22,8 +22,8 @@ function showSlides(n) {
 // HOYO TIME
 
 // Next/previous controls
-function plusConts() {
-  showCont(hoyoIndex + 1);
+function plusConts(n) {
+  showCont(hoyoIndex += n);
 }
 
 function showCont(n) {
@@ -34,5 +34,5 @@ function showCont(n) {
   for (i = 0; i < hoyoconts.length; i++) {
     hoyoconts[i].style.display = "none";
   }
-  hoyoconts[slideIndex-1].style.display = "block";
+  hoyoconts[hoyoIndex-1].style.display = "block";
 }

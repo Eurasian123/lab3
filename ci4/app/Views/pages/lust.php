@@ -36,10 +36,13 @@
 </div>
 <div class="lust_hoyodiv" id="hithird">
 <div class="image_float">
-<?php echo img('images/lust/honkai_impact.jpg'); ?>
+<?php echo img('images/lust/honkai_impact.png'); ?>
 </div>
 <h1>Honkai Impact 3rd</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar purus at est facilisis tristique. Fusce vitae nibh vitae purus gravida rhoncus a non quam. Cras felis ipsum, viverra in erat et, imperdiet finibus justo. Sed efficitur, ligula eu pulvinar imperdiet, metus risus aliquam nibh, ac consequat urna nisl id augue. Duis consectetur iaculis orci, auctor dapibus nunc imperdiet ultricies. Vivamus dapibus lobortis varius. Nulla mi elit, cursus sit amet lacus sit amet, ornare consectetur odio. Praesent orci felis, commodo eget feugiat quis, egestas ut elit. Donec convallis metus congue urna faucibus porta varius tempor tortor. Nam ornare, libero id sodales sollicitudin, magna velit condimentum elit, at aliquet magna ante feugiat elit. Praesent auctor nec augue nec mollis. In dapibus velit at dolor mattis ullamcorper.</p>
+</div>
+<div class="hoyo_button" onclick="plusConts(1)">
+<?php echo img('images/reload.png'); ?>
 </div>
 </div>
 <div class="lust_item" id="gdash">
