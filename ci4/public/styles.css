@@ -500,14 +500,34 @@ img.pfp {
 	justify-content: center;
 }
 
-.image_float img {
-	display: block;
+.limage_cont {
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
 	align-self: center;
 	width: 100%;
 	height: auto;
+}
+
+.limage_cont img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	align-self: center;
+	transform: translateY(-50%);
+	width: 100%;
+	height: auto;
+}
+
+.limage_cont video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	align-self: center;
+	transform: translateY(-50%);
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	transition-duration: 0.5s;
 }
 
 .lust_hoyodiv {
@@ -516,7 +536,7 @@ img.pfp {
 	display: none;
 }
 
-.lust_hoyodiv .image_float img {
+.lust_hoyodiv .image_float img, .lust_hoyodiv .image_float video {
 	transform: translateY(-55%);
 }
 
